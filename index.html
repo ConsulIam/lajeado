@@ -120,7 +120,7 @@
     <!-- As secções "programação" e "palestras" podem ser todas comentadas durante a chamada de trabalhos e publicadas quando a grade estiver pronta -->
 
 
-    <!-- <section id="programacao">
+    <section id="programacao">
     <div class="container">
     <h2 class="subtitle">Programação</h2>
 
@@ -130,10 +130,10 @@
                 <tr>
                     <th class="schedule-time">Horário</th>
                     <td class="schedule-slot" colspan="4" style="text-align:center">
-                        $NOME_SALA_1
+                        Atividade
                     </td>
-                    <td class="schedule-slot" colspan="4" style="text-align:center">
-                        $NOME_SALA_2
+                    <!-- <td class="schedule-slot" colspan="4" style="text-align:center">
+                        Sala
                     </td>
                     <td class="schedule-slot" colspan="4" style="text-align:center">
                         $NOME_SALA_3
@@ -143,38 +143,38 @@
                     </td>
                     <td class="schedule-slot" colspan="4" style="text-align:center">
                         $NOME_SALA_5
-                    </td>
+                    </td> -->
                 </tr>
             </thead>
             <tbody>
 
                 <tr class="schedule-other">
-                    <td class="schedule-time">$HORARIO_CREDENCIAMENTO</td>
+                    <td class="schedule-time">08:00:00</td>
                     <td class="schedule-slot" colspan="4" style="text-align:center">
-                        Recepção / Credenciamento - $LOCAL_RECEPCAO
+                        Recepção / Credenciamento - Recepção
                     </td>
                 </tr>
 
                 <tr class="schedule-other">
-                    <td class="schedule-time">$HORARIO_ABERTURA</td>
+                    <td class="schedule-time">08:40:00</td>
                     <td class="schedule-slot" colspan="4" style="text-align:center">
-                        Abertura - $NOME_SALA_1
+                        Abertura - Auditório 11
                     </td>
                 </tr>
 
                 <tr class="schedule-other">
-                    <td class="schedule-time">$HORARIO_SLOT_1</td>
+                    <td class="schedule-time">09:00:00</td>
                     <td class="schedule-slot" colspan="4" style="text-align: center">
                         <a href="#speech-1">
                             <span class="description">
-                                $PALESTRA_01<br/>
+                                Docker, do compose ao Swarm - Intermediário<br/>
                             </span>
                         </a>
                         <span class="speaker">
-                            $PALESTRA_01_PALESTRANTE
+                            Cristiano Diedrich
                         </span>
                     </td>
-                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                    <!-- <td class="schedule-slot" colspan="4" style="text-align: center">
                         <a href="#speech-2">
                             <span class="description">
                                  $PALESTRA_02<br/>
@@ -213,20 +213,20 @@
                         <span class="speaker">
                             $PALESTRA_05_PALESTRANTE<br/>
                         </span>
-                    </td>
+                    </td> -->
                 </tr>
 
                 <tr class="schedule-other">
-                    <td class="schedule-time">$HORARIO_SLOT_2</td>
+                    <td class="schedule-time">09:00:00</td>
                     <td class="schedule-slot" colspan="4" style="text-align: center">
-                        <a href="#speech-6">
+                        <a href="#speech-2">
                             <span class="description">
-                                $PALESTRA_06<br/>
+                                Introdução ao Docker - Iniciante<br/>
                             </span></a>
                         <span class="speaker">
-                            $PALESTRA_06_PALESTRANTE
+                            Rafael Dutra
                         </span>
-                    </td>
+                    <!-- </td>
                     <td class="schedule-slot" colspan="4" style="text-align: center">
                         <a href="#speech-7">
                             <span class="description">
@@ -266,17 +266,115 @@
                         <span class="speaker">
                              $PALESTRA_10_PALESTRANTE<br/>
                         </span>
-                    </td>
+                    </td> -->
                 </tr>
+				
+				<tr class="schedule-other">
+                    <td class="schedule-time">10:30:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                        <a href="#speech-3">
+                            <span class="description">
+                                Criando um motor de busca com NodeJS + MongoDB - Iniciante<br/>
+                            </span></a>
+                        <span class="speaker">
+                            Luiz Fernando Duarte Junior
+                        </span>
+				</tr>
+
+				<tr class="schedule-other">
+                    <td class="schedule-time">11:30:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                        <a href="#speech-4">
+                            <span class="description">
+                                Metodologia Top Down Network Design para ambientes de Data Center e Cloud Computing - Intermediário<br/>
+                            </span></a>
+                        <span class="speaker">
+                            Marcelo Lima
+                        </span>
+				</tr>
 
                 <tr class="schedule-other">
-                    <td class="schedule-time">$HORARIO_ALMOCO</td>
+                    <td class="schedule-time">12:30:00</td>
                     <td class="schedule-slot" colspan="4" style="text-align: center">
                      Intervalo para Almoço
                     </td>
                 </tr>
+				
+				<tr class="schedule-other">
+                    <td class="schedule-time">13:30:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                        <a href="#speech-5">
+                            <span class="description">
+                                Anatomia de um sistema embarcado Linux - Iniciante<br/>
+                            </span></a>
+                        <span class="speaker">
+                            Renato da Silva Severo
+                        </span>
+				</tr>
+				
+				<tr class="schedule-other">
+                    <td class="schedule-time">14:00:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                        <a href="#speech-6">
+                            <span class="description">
+                                Linux para filmmakers - Iniciante<br/>
+                            </span></a>
+                        <span class="speaker">
+                            Régis Tomkiel
+                        </span>
+				</tr>
 
+				<tr class="schedule-other">
+                    <td class="schedule-time">15:00:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                        <a href="#speech-7">
+                            <span class="description">
+                                Meu primeiro app Android - Iniciante<br/>
+                            </span></a>
+                        <span class="speaker">
+                            Luiz Fernando Duarte Junior
+                        </span>
+				</tr>
+				
                 <tr class="schedule-other">
+                    <td class="schedule-time">15:30:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                     Coffee-Break
+                    </td>
+                </tr>
+
+				<tr class="schedule-other">
+                    <td class="schedule-time">16:00:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                        <a href="#speech-8">
+                            <span class="description">
+                                Web social e interoperabilidade semântica - Intermediário<br/>
+                            </span></a>
+                        <span class="speaker">
+                            Matheus Pereira
+                        </span>
+				</tr>
+				
+				<tr class="schedule-other">
+                    <td class="schedule-time">17:00:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                        <a href="#speech-9">
+                            <span class="description">
+                                Pelo empoderamento do Hacker/ Maker/ Educador e Nerds afins! - Iniciante<br/>
+                            </span></a>
+                        <span class="speaker">
+                            Luiz Rauber Rodrigues
+                        </span>
+				</tr>
+				
+                <tr class="schedule-other">
+                    <td class="schedule-time">17:30:00</td>
+                    <td class="schedule-slot" colspan="4" style="text-align: center">
+                     Encerramento e Partiu Pós-Evento
+                    </td>
+                </tr>
+				
+                <!-- <tr class="schedule-other">
                     <td class="schedule-time">$HORARIO_SLOT_3</td>
                     <td class="schedule-slot" colspan="4" style="text-align: center">
                         <a href="#speech-11">
@@ -446,7 +544,7 @@
                             Tchelinux<br/>
                         </span>
                     </td>
-                </tr>
+                </tr> -->
 
 
                 </tbody>
@@ -455,240 +553,124 @@
 
 
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section id="palestras">
+    <section id="palestras">
         <div class="container">
             <h2 class="subtitle">Palestras</h2>
 
 
             <div id="speech-1" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_1</span>
+             	<span class="speech-time">09:00:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_01</h3>
-             	      <span class="speech-description">$PALESTRA_01_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_01_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_01_CURRICULO</span>
+                    <h3 class="speech-title">Docker, do compose ao Swarm - Intermediário</h3>
+             	      <span class="speech-description">Docker vem evoluindo muito, e agregando funcionalidades que facilitam cada vez mais o processo de gerenciamento e deploy de aplicações. Vamos entender nessa apresentação o que mudou nas ultimas versões e como isso pode afetar a sua produtividade.</span>
+             	    <h3 class="speaker-name">Cristiano Diedrich</h3>
+             	      <span class="speaker-bio">Formando em sistemas de informação, trabalha na Umbler, uma startup de hosting sob demanda. Co-fundador do maior blog sobre Docker no Brasil, o <a href="http://mundodocker.com.br" target="_blank">mundoDocker</a>. Apaixonado por tecnologias Open Source, com as quais trabalha ha mais de 12 anos.
+					  </span>
             </div>
 
-            <div id="speech-2" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_1</span>
+			<div id="speech-2" class=speech-container>
+             	<span class="speech-time">09:00:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_02</h3>
-             	      <span class="speech-description">$PALESTRA_02_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_02_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_02_CURRICULO</span>
+                    <h3 class="speech-title">Introdução ao Docker - Iniciante</h3>
+             	      <span class="speech-description">Docker mudou como criamos sistemas. Motivos para sua adoção são vários, mas segue alguns bons exemplos:<br/>
+					  <li>Aplicação auto contida</li>
+					  <li>Ambientes iguais</li>
+					  <li>Padronização com melhores práticas</li>
+					  <li>Comunidade</li>
+					  Com poucos comandos podemos ter nossa aplicação online na maioria das grandes cloud providers, como: AWS, Google Cloud, Digital Ocean, OpenStack entre outros. Como temos uma aplicação auto contida, seu deploy fica simplificado.<br/>
+					  Durante a palestra, vamos utilizar os comandos básicos de gerenciamento de Docker, até uma demonstração final colocando uma aplicação online dentro da Digital Ocean.
+					  </span>
+             	    <h3 class="speaker-name">Rafael Dutra</h3>
+             	      <span class="speaker-bio">Possue 12 anos de experiência em TI atuando como SysAdmin em ambientes Linux nas mais variadas distribuições. Atualmente mora em Porto Alegre/RS e é estudante de Segurança da Informação pela UNISINOS. Ouve Heavy Metal e derivados e gosta de ajudar quem quer aprender.
+					  </span>
             </div>
 
-            <div id="speech-3" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_1</span>
+			 <div id="speech-3" class=speech-container>
+             	<span class="speech-time">10:30:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_03</h3>
-             	      <span class="speech-description">$PALESTRA_03_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_03_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_03_CURRICULO</span>
+                    <h3 class="speech-title">Criando um motor de busca com NodeJS + MongoDB - Iniciante</h3>
+             	      <span class="speech-description">Aprenda como usar a dupla NodeJS + MongoDB para criar um site/motor de busca (ou API) simples e eficiente. Passarei rapidamente pelos conceitos básicos de mecanismos de busca, modelaremos o banco e terminaremos com um projeto funcionando.
+					  </span>
+             	    <h3 class="speaker-name">Luiz Fernando Duarte Junior</h3>
+             	      <span class="speaker-bio">Bacharel em Ciência da Computação, pós-graduado em Computação Móvel, atuando na área de TI desde 2006 principalmente como desenvolvedor nas mais variadas tecnologias. Atualmente é empreendedor, professor do ensino superior e autor de livros de tecnologia. Mais info:<a href="http://www.luiztools.com.br" target="_blank">LuizTools</a>.
+					  </span>
             </div>
-
-            <div id="speech-4" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_1</span>
+			
+			<div id="speech-4" class=speech-container>
+             	<span class="speech-time">11:30:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_04</h3>
-             	      <span class="speech-description">$PALESTRA_04_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_04_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_04_CURRICULO</span>
+                    <h3 class="speech-title">Metodologia Top Down Network Design para ambientes de Data Center e Cloud Computing - Intermediário</h3>
+             	      <span class="speech-description">O objetivo é apresentar de maneira prática, de ponta a ponta as preocupações, os detalhes e o que deve ser considerado em um projeto para infraestrutura de Data Center, seja ele para hospedar ambientes privados ou públicos, independente de seu tamanho.
+					  Estaremos conversando sobre medotologias, principais tecnologias e pontos de atenção no desenvolvimento do projeto.
+					  </span>
+             	    <h3 class="speaker-name">Marcelo Lima</h3>
+             	      <span class="speaker-bio">Possue vasta experiência em ambientes de Data Center e Cloud Computing. Atuante na comunidade Open Source desde 1997, especialista em infraestruturas escaláveis e altamente disponíveis.
+					  </span>
             </div>
-
-            <div id="speech-5" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_1</span>
+			
+			<div id="speech-5" class=speech-container>
+             	<span class="speech-time">13:30:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_05</h3>
-             	      <span class="speech-description">$PALESTRA_05_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_05_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_05_CURRICULO</span>
+                    <h3 class="speech-title">Anatomia de um sistema embarcado Linux - Iniciante</h3>
+             	      <span class="speech-description">O objetivo da palestra é dar uma visão geral dos componentes (hardware e software) de um sistema embarcado que utiliza Linux como sistema operacional.
+					  </span>
+             	    <h3 class="speaker-name">Renato da Silva Severo</h3>
+             	      <span class="speaker-bio">Formado em Engenharia de Computação pela Unipampa Bagé. Pós-Graduação em Sistemas Embarcados pela UERGS- Guaíba. Atua como desenvolvedor de sistemas embarcados na DATACOM, desde 2012.
+					  </span>
             </div>
-
-            <div id="speech-6" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_2</span>
+			
+			<div id="speech-6" class=speech-container>
+             	<span class="speech-time">14:00:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_06</h3>
-             	      <span class="speech-description">$PALESTRA_06_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_06_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_06_CURRICULO</span>
+                    <h3 class="speech-title">Linux para filmmakers - Iniciante</h3>
+             	      <span class="speech-description">O objetivo dessa palestra é demonstrar através de exemplificação as inúmeras possibilidades de produção audiovisual, usando softwares nativos no Linux. 
+					  Serão abordadas várias etapas de edição e produção, começando com cortes e montagem, passando por tratamento de áudio, correção de cor, composição de cena e finalização.
+					  </span>
+             	    <h3 class="speaker-name">Régis Tomkiel</h3>
+             	      <span class="speaker-bio">Formando em Sistemas de informação, produtor audiovisual com foco em utilização de ferramentas nas plataformas GNU/Linux, roteirista, podcaster e cofundador da produtora e agência Dose Extra Multimídia.
+					  Entusiasta de Software Livre desde 2006, quando conheceu o Slackware. Atualmente desenvolve praticamente todos os trabalhos de produção de vídeo nativamente numa distro GNU/Linux e com softwares renomados no mercado.
+					  </span>
             </div>
-
-            <div id="speech-7" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_2</span>
+			
+			<div id="speech-7" class=speech-container>
+             	<span class="speech-time">15:00:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_07</h3>
-             	      <span class="speech-description">$PALESTRA_07_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_07_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_07_CURRICULO</span>
+                    <h3 class="speech-title">Meu primeiro app Android - Iniciante</h3>
+             	      <span class="speech-description">Aprenda como se cria um app Android simples, porém útil, e como submetê-lo na Google Play rapidamente.
+					  </span>
+             	    <h3 class="speaker-name">Luiz Fernando Duarte Junior</h3>
+             	      <span class="speaker-bio">Bacharel em Ciência da Computação, pós-graduado em Computação Móvel, atuando na área de TI desde 2006 principalmente como desenvolvedor nas mais variadas tecnologias. Atualmente é empreendedor, professor do ensino superior e autor de livros de tecnologia. Mais info: <a href="http://www.luiztools.com.br" target="_blank">LuizTools</a>.
+					  </span>
             </div>
-
-            <div id="speech-8" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_2</span>
+			
+			<div id="speech-8" class=speech-container>
+             	<span class="speech-time">16:00:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_08</h3>
-             	      <span class="speech-description">$PALESTRA_08_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_08_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_08_CURRICULO</span>
+                    <h3 class="speech-title">Web social e interoperabilidade semântica - Intermediário</h3>
+             	      <span class="speech-description">A web social criou novas formas de comunicação e colaboração na internet. Esta mudança permitiu que usuários pudessem criar e compartilhar conteúdo, interagindo e colaborando entre si. Atualmente, busca-se pela interoperabilidade semântica através de tecnologias que permitam o compartilhamento, o reuso e a compreensão da informação por parte de máquinas e serviços.
+					  
+					  A apresentação pretende discutir sobre tecnologias, aplicações e desafios da web semântica na perspectiva da inteligência artificial, além de apresentar uma implementação básica utilizando Python, Virtuoso e outras ferramentas ligadas à web semântica.
+					  </span>
+             	    <h3 class="speaker-name">Matheus Pereira</h3>
+             	      <span class="speaker-bio">Mestrando em Ciência da Computação com ênfase em Inteligência Artificial na UFRGS. Bacharel em Ciência da Computação pela UCS. Programando desde 2007. Organizador voluntários dos eventos Tchelinux Caxias e PyCaxias desde 2012.
+					  </span>
             </div>
-
-            <div id="speech-9" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_2</span>
+			
+			<div id="speech-9" class=speech-container>
+             	<span class="speech-time">17:00:00</span>
              	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_09</h3>
-             	      <span class="speech-description">$PALESTRA_09_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_09_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_09_CURRICULO</span>
+                    <h3 class="speech-title">Pelo empoderamento do Hacker/ Maker/ Educador e Nerds afins! - Iniciate</h3>
+             	      <span class="speech-description">Chega um momento que dá vontade de mandar um foda-se né? Mas uns, como eu, não conseguem, pois querem que pessoinhas com midi-chlorians evoluam. Assim esta palestra (mais na discussão que explanação) é o resumo de andanças e aprendizados fundamentais que culminam na sugestão de projetos para o empoderamento do Hacker/ Maker/ Educador e Nerds afins!
+					  </span>
+             	    <h3 class="speaker-name">Luiz Rauber Rodrigues</h3>
+             	      <span class="speaker-bio">Bacharel em Ciência da Computação, pós-graduado em Computação Móvel, atuando na área de TI desde 2006 principalmente como desenvolvedor nas mais variadas tecnologias. Atualmente é empreendedor, professor do ensino superior e autor de livros de tecnologia. Mais info: <a href="http://www.luiztools.com.br" target="_blank">LuizTools</a>.
+					  </span>
             </div>
-
-            <div id="speech-10" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_2</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_10</h3>
-             	      <span class="speech-description">$PALESTRA_10_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_10_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_10_CURRICULO</span>
-            </div>
-
-            <div id="speech-11" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_3</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_11</h3>
-             	      <span class="speech-description">$PALESTRA_11_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_11_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_11_CURRICULO</span>
-            </div>
-
-            <div id="speech-12" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_3</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_12</h3>
-             	      <span class="speech-description">$PALESTRA_12_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_12_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_12_CURRICULO</span>
-            </div>
-
-            <div id="speech-13" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_3</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_13</h3>
-             	      <span class="speech-description">$PALESTRA_13_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_13_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_13_CURRICULO</span>
-            </div>
-
-            <div id="speech-14" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_3</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_14</h3>
-             	      <span class="speech-description">$PALESTRA_14_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_14_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_14_CURRICULO</span>
-            </div>
-
-            <div id="speech-15" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_3</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_15</h3>
-             	      <span class="speech-description">$PALESTRA_15_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_15_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_15_CURRICULO</span>
-            </div>
-
-            <div id="speech-16" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_4</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_16</h3>
-             	      <span class="speech-description">$PALESTRA_16_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_16_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_16_CURRICULO</span>
-            </div>
-
-            <div id="speech-17" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_4</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_17</h3>
-             	      <span class="speech-description">$PALESTRA_17_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_17_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_17_CURRICULO</span>
-            </div>
-
-            <div id="speech-18" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_4</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_18</h3>
-             	      <span class="speech-description">$PALESTRA_18_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_18_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_18_CURRICULO</span>
-            </div>
-
-            <div id="speech-19" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_4</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_19</h3>
-             	      <span class="speech-description">$PALESTRA_19_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_19_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_19_CURRICULO</span>
-            </div>
-
-            <div id="speech-20" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_4</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_20</h3>
-             	      <span class="speech-description">$PALESTRA_20_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_20_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_20_CURRICULO</span>
-            </div>
-
-            <div id="speech-21" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_5</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_21</h3>
-             	      <span class="speech-description">$PALESTRA_21_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_21_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_21_CURRICULO</span>
-            </div>
-
-            <div id="speech-22" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_5</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_22</h3>
-             	      <span class="speech-description">$PALESTRA_22_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_22_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_22_CURRICULO</span>
-            </div>
-
-            <div id="speech-23" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_5</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_23</h3>
-             	      <span class="speech-description">$PALESTRA_23_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_23_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_23_CURRICULO</span>
-            </div>
-
-            <div id="speech-24" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_5</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_24</h3>
-             	      <span class="speech-description">$PALESTRA_24_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_24_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_24_CURRICULO</span>
-            </div>
-
-            <div id="speech-25" class=speech-container>
-             	<span class="speech-time">$HORARIO_SLOT_5</span>
-             	<div class="speech-info">
-                    <h3 class="speech-title">$PALESTRA_25</h3>
-             	      <span class="speech-description">$PALESTRA_25_DESCRICAO</span>
-             	    <h3 class="speaker-name">$PALESTRA_25_PALESTRANTE</h3>
-             	      <span class="speaker-bio">$PALESTRA_25_CURRICULO</span>
-            </div>
-
+			
         </div>
-    </section> -->
+    </section>
 
         <section id="local">
         <div class="container">
@@ -809,5 +791,15 @@
         <script type="text/javascript" src="javascript.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/scrollspy.min.js"></script>
     </div>
-    </body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96468438-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</body>
 </html>
